@@ -128,7 +128,7 @@ const Header = ({ headersContent }) => {
                   }}
                 />
               </span>
-              <span className=" hidden md:block">The Hexaa</span>
+              <span className=" hidden md:block">Nasick AI</span>
             </Link>
           </div>
           <div className="hidden lg:block">
