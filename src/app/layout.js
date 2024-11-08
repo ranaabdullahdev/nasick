@@ -1,16 +1,10 @@
-import localFont from "next/font/local";
 import "./globals.css";
+import headerData from "../data/HeaderData";
+import Header from "../components/Header";
+import { primary, secondary } from "../app/fonts/index";
+import { cn } from "../utils/shadcn";
 
-const geistSans = localFont({
-  src: "./fonts/GeistVF.woff",
-  variable: "--font-geist-sans",
-  weight: "100 900",
-});
-const geistMono = localFont({
-  src: "./fonts/GeistMonoVF.woff",
-  variable: "--font-geist-mono",
-  weight: "100 900",
-});
+
 
 export const metadata = {
   title: "Create Next App",
@@ -18,11 +12,19 @@ export const metadata = {
 };
 
 export default function RootLayout({ children }) {
+ const data =headerData
   return (
-    <html lang="en">
+    <html lang="en"     className={cn(
+        "dark",
+        primary.variable,
+        secondary.variable,
+        "text-base leading-[1.875] text-accent-800 [&.dark]:text-body"
+      )}
+    > 
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+       
       >
+        <Header headersContent={data ?? null}/>
         {children}
       </body>
     </html>
