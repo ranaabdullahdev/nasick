@@ -8,7 +8,7 @@ const headerData=[
                     "list": null,
                     "slug": "/services",
                     "button": "Discover all Solutions",
-                    "heading": "Hexaa is here to make a difference",
+                    "heading": "Nasick is here to make a difference",
                     "subheading": "Leading the way in innovation for over 5 years, we build greater futures for businesses across multiple industries and 1 countries."
                 }
             },
@@ -63,7 +63,7 @@ const headerData=[
                     "list": null,
                     "slug": "/about-us",
                     "button": "Discover the difference",
-                    "heading": "Hexaa is here to make a difference",
+                    "heading": "Nasick is here to make a difference",
                     "subheading": "Leading the way in innovation for over 5 years, we build greater futures for businesses across multiple industries and 1 countries."
                 }
             },
@@ -112,7 +112,7 @@ const headerData=[
                     "list": null,
                     "slug": "/insights",
                     "button": "Discover the difference",
-                    "heading": "Hexaa is here to make a difference",
+                    "heading": "Nasick is here to make a difference",
                     "subheading": "Leading the way in innovation for over 5 years, we build greater futures for businesses across multiple industries and 1 countries."
                 }
             },
@@ -159,7 +159,7 @@ const headerData=[
                     "list": null,
                     "slug": "/careers",
                     "button": "Discover the difference",
-                    "heading": "Hexaa is here to make a difference",
+                    "heading": "Nasick is here to make a difference",
                     "subheading": "At Hexa AI, we are more than just a technology company—we are a team of innovators, problem-solvers, and forward-thinkers transforming industries with AI-driven solutions."
                 }
             },
@@ -177,7 +177,7 @@ const headerData=[
                 }
             },
             {
-                "title": "Life at The Hexaa",
+                "title": "Life at The Nasick",
                 "content": {
                     "list": null,
                     "slug": "/csr"
